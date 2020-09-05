@@ -1,0 +1,19 @@
+type City {
+    location: Location!
+    time: Int!
+}
+
+type Location {
+    id: Int
+    name: String
+    latitude: Float
+    longitude: Float
+}
+
+type Query {
+  city(emotion: Int!, latitude: Float!, longitude: Float!, time: Int!): City!
+}
+
+type Mutation {
+  evaluat(emotion: Int!, value: Int!, locationId: Int!): Boolean!
+}

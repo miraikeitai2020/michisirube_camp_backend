@@ -1,0 +1,11 @@
+{
+	city(emotion: 1, latitude: 41.773746, longitude: 140.726399, time: 10){
+    location{
+      id
+      name
+      latitude
+      longitude
+    }
+    time
+	}
+}

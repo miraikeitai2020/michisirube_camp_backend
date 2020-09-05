@@ -1,0 +1,3 @@
+mutation{
+	evaluat(emotion: 1, value: 0, locationId: 1)
+}
