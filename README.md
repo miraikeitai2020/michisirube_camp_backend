@@ -38,14 +38,14 @@ HTTPメソッド: `POST`
 リクエスト
 ```
 {
+  "evaluation": {
+    "emotion": {
+      "value": "int"
+    },
+    "value": "int"
+  },
   "location": {
     "id": "int",
-    "evaluation": {
-      "emotion": {
-        "value": "int",
-      },
-      "value": "int"
-    }
   }
 }
 ```
