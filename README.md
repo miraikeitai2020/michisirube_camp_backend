@@ -14,6 +14,10 @@ HTTPメソッド： `POST`
   "emotion": {
     "value": "int",
   },
+  "location": {
+    "latitude": "float",
+    "longitude": "float"
+  }
   "time": "int"
 }
 ```
