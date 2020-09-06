@@ -15,7 +15,7 @@ func initializeController() controller.Controller {
 func setupRooter(ctrl controller.Controller) *gin.Engine {
 	router := gin.Default()
 	// API Handlers List
-	// router.POST("/", )
+	router.POST("/", evaluation)
 	return router
 }
 

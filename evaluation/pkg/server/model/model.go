@@ -1,5 +1,8 @@
 package model
-
+type Request struct{
+	Evaluation Evaluation `json:"Evaluation"`
+	Location	Location	`json::"Location"`
+}
 type Evaluation struct{
 	Value int `json:"value"`
 	Emotion Emotion `json:"emotion"`
@@ -9,5 +12,5 @@ type Emotion struct{
 }
 
 type Location struct{
-	ID int `json:"id"`
+	Id int `json:"id"`
 }
