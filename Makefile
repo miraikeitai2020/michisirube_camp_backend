@@ -3,6 +3,8 @@ RUNCMD=$(DOCKER) up
 DOWNCMD=$(DOCKER) down
 
 all:
-	$(UPCMD) -d --build
+	$(RUNCMD) -d --build
+init-db:
+	sh ./db/init-container.sh
 clean:
 	$(DOWNCMD) --rmi all
