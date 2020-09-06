@@ -42,3 +42,8 @@ insert into `locate` values (1, '函館駅', 41.773746, 140.726399);
 insert into `locate` values (2, '五稜郭駅', 41.803418, 140.733884);
 insert into `locate` values (3, '桔梗駅', 41.846735, 140.723046);
 insert into `locate` values (4, '大中山駅', 41.864738, 140.713482);
+
+insert into `emotional` values (1, 50, 50, 50, 50);
+insert into `emotional` values (2, 50, 50, 50, 50);
+insert into `emotional` values (3, 50, 50, 50, 50);
+insert into `emotional` values (4, 50, 50, 50, 50);
