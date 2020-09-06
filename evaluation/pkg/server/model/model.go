@@ -7,3 +7,7 @@ type Evaluation struct{
 type Emotion struct{
 	Value int `json:"value"`
 }
+
+type Location struct{
+	ID int `json:"id"`
+}
