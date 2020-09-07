@@ -1,6 +1,6 @@
 package main
 
-import(
+import (
 	// import gin library
 	"github.com/gin-gonic/gin"
 
@@ -15,7 +15,7 @@ func initializeController() controller.Controller {
 func setupRooter(ctrl controller.Controller) *gin.Engine {
 	router := gin.Default()
 	// API Handlers List
-	// router.POST("/", )
+	router.POST("/", ctrl.Task1)
 	return router
 }
 
